@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: hidden;
+}
+body {
+  background: #373636;
+}
+#web {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  outline: none;
+}
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.parent > button {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  outline: none;
+  border: none;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #fff;
+  background: url("../static//pic//onn.png");
+  background-size: cover;
+}
